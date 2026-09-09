@@ -117,6 +117,16 @@ java Program 50 30 70 20 40 60 80
 
 ---
 
+### Running the Automated Test Suite
+
+A standalone unit test suite is included to verify all algorithms, edge cases, and traversals:
+
+```bash
+java BSTTest.java
+```
+
+---
+
 ### Running the Companion C++ Program (Optional)
 
 ```bash
@@ -133,6 +143,7 @@ g++ -std=c++17 bst_app.cpp -o bst_app
 
 ```text
 ├── Program.java     # Main Java program with BST logic, visualizer, and CLI
+├── BSTTest.java     # Automated unit test suite (28 test assertions)
 ├── bst_app.cpp      # Companion modern C++ implementation
 ├── .gitignore       # Git ignore rules for compiled classes and binaries
 └── README.md        # Documentation and usage guide
