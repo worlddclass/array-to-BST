@@ -1,0 +1,19 @@
+# Compiled Java class files
+*.class
+
+# C++ compiled binaries and objects
+*.exe
+*.o
+*.obj
+bst_app
+
+# Temporary files
+program
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE configuration folders
+.vscode/
+.idea/
+*.iml
